@@ -30,17 +30,8 @@
 
                 <a href="#">DIGITAL COMICS</a>
             </span>
-
-
-
-
-
         </div>
-
-        
-
-    </section>
-    
+    </section> 
 </template>
 
 <script>
@@ -54,7 +45,6 @@ export default {
 section{
     background-color: $brand_primary_color;
 }
-
 
 .container{
     padding: 35px;

@@ -125,14 +125,11 @@ header {
                 font-weight: bolder;    
             }
 
-              &.current {
-                        color:$brand_primary_color;
-                        border-bottom: 8px solid $brand_primary_color;        
-                    } 
-
-            
+            &.current {
+                color:$brand_primary_color;
+                border-bottom: 8px solid $brand_primary_color;        
+            }   
         }
-
 }
 
 </style>

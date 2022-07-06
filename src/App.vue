@@ -8,6 +8,7 @@
       <MainContent/>
     </main>
 
+   <EndPage/>
   </div>
 </template>
 
@@ -16,6 +17,7 @@
 import PageHeader from './components/PageHeader.vue'
 import MainSection from './components/MainSection.vue'
 import MainContent from './components/MainContent.vue'
+import EndPage from './components/EndPage.vue'
 
 export default {
   name: 'App',
@@ -23,6 +25,7 @@ export default {
     PageHeader,
     MainSection,
     MainContent,
+    EndPage,
 
   }
 }
