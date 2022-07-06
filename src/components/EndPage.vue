@@ -46,10 +46,7 @@
                 </ul> 
             </div>
 
-               
-     
-
-            <div>
+            <div class="bg-img">
                 <img src="../assets/img/dc-logo-bg.png" alt="Dc logo">
             </div>
         
@@ -79,11 +76,12 @@
     
 </template>
 
-
 <script>
+
 export default {
     
 }
+
 </script>
 
 <style lang="scss" scoped>
@@ -112,7 +110,7 @@ export default {
                     padding-right: 40px;
                     padding-bottom: 15px
                 }     
-        }     
+        }  
     }   
 }
 
@@ -137,7 +135,6 @@ export default {
             }
         }
 
-
         .social{
             display: flex;
             align-items: center;
@@ -151,9 +148,7 @@ export default {
                 padding-right: 10px;
             }
         }
-    }
-
-    
+    }    
 }
 
 </style>
