@@ -9,8 +9,8 @@
         <!-- Header nav -->
             <nav>
                 <ul class="menu">
-                    <li v-for="element, index in menuLinks" :key="index">
-                        <a :href="element.url" :class="{'current': element.current }"> {{ element.text }} </a>
+                    <li v-for="element, index in menuLinks" :key="index" :class="{'current': element.current }">
+                        <a :href="element.url" > {{ element.text }} </a>
                     </li>
                 </ul>
             </nav>
@@ -94,7 +94,8 @@ export default {
 @import '../style/variables';
 
 header {
-        height: 100px;
+        height: 120px;
+        padding: 10px;
         
         img{
             height: 100px;
@@ -116,19 +117,18 @@ header {
     }
         li {
             padding: 0 10px;
+            color: #606d77;
 
             a {
-                color: #606d77;
                 text-decoration: none;
                 font-size: 12px;
-                font-weight: bolder;
-
-                    &.current {
-                        color:$brand_primary_color;
-                        border-bottom: 3px solid $brand_primary_color ;
-                        line-height: 100px;   
-                    }  
+                font-weight: bolder;    
             }
+
+              &.current {
+                        color:$brand_primary_color;
+                        border-bottom: 8px solid $brand_primary_color;        
+                    } 
 
             
         }
