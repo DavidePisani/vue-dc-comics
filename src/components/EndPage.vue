@@ -47,7 +47,7 @@
             </div>
 
             <div class="bg-img">
-                <img src="../assets/img/dc-logo-bg.png" alt="Dc logo">
+                <!-- <img src="../assets/img/dc-logo-bg.png" alt="Dc logo"> -->
             </div>
         
         </div>
@@ -92,7 +92,6 @@ export default {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
-    padding: 10px 0;
     color: white;
 
     .container{
@@ -100,8 +99,9 @@ export default {
         justify-content: space-between;
 
         .list{
+            width: 50%;
             display: flex;
-            padding: 20px;
+            padding: 60px;
                 li{
                     color: lightgrey;
                 }
@@ -111,6 +111,13 @@ export default {
                     padding-bottom: 15px
                 }     
         }  
+
+        .bg-img{
+            background-image: url("../assets/img/dc-logo-bg.png");
+            background-position: center;
+            background-size: cover;
+            width: 50%;
+        }
     }   
 }
 
