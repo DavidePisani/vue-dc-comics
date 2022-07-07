@@ -47,7 +47,7 @@
             </div>
 
             <div class="bg-img">
-                <!-- <img src="../assets/img/dc-logo-bg.png" alt="Dc logo"> -->
+               
             </div>
         
         </div>
@@ -79,7 +79,7 @@
 <script>
 
 export default {
-    
+     name: 'EndPage',
 }
 
 </script>
@@ -137,7 +137,6 @@ export default {
                 padding: 15px;
                 color: white;
                 font-weight: bolder;
-                text-decoration: none;
                 display: inline-block;
             }
         }

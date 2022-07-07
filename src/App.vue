@@ -2,8 +2,10 @@
   <div id="app">
 
     <PageHeader/>
+    
   
     <main>
+      <JumboTron/>
       <MainSection/>
       <MainContent/>
     </main>
@@ -18,6 +20,7 @@ import PageHeader from './components/PageHeader.vue'
 import MainSection from './components/MainSection.vue'
 import MainContent from './components/MainContent.vue'
 import EndPage from './components/EndPage.vue'
+import JumboTron from './components/JumboTron.vue'
 
 export default {
   name: 'App',
@@ -26,6 +29,7 @@ export default {
     MainSection,
     MainContent,
     EndPage,
+    JumboTron,
 
   }
 }
